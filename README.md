@@ -2,24 +2,6 @@
 
 Basit Prolog sorgu sistemi ve mantık programlama örnekleri.
 
-## Dosyalar
-
-- `prolog_practice.pl` - Temel hayvan ve davranış kuralları
-
-## Prolog Kodu
-
-```prolog
-% Hayvanlar
-kedi(tom).
-kedi(lisa).
-fare(jerry).
-kus(tweety).
-
-% Kurallar
-kovalar(X, Y) :- kedi(X), fare(Y).
-kovalar(X, Y) :- kedi(X), kus(Y).
-```
-
 ## Kullanım
 
 SWI-Prolog'da dosyayı yükleyin:
@@ -54,3 +36,4 @@ X = lisa, Y = tweety.
 
 ---
 *Öğrenci çalışması*
+
